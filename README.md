@@ -1,8 +1,8 @@
-# Rust Actix Web REST API
+# Rust Actix Web REST API to Import Nested Array of Items in PostgreSQL database 
 
 ## Overview
 
-This project is a REST API built using Rust with Actix Web framework and Diesel ORM. The API interacts with a PostgreSQL database to import point of sale (POS) items from the front-end.
+This project is a REST API built using Rust with Actix Web framework and Diesel ORM. The API is specifically designed to import a 2D array (nested array) of point of sale (POS) items from the front-end into a PostgreSQL database.
 
 ## Prerequisites
 
