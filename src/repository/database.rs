@@ -25,7 +25,7 @@ impl Database {
     }
 
 
-pub fn pos_items_imports(&self, data: Vec<POSItems>) -> Result<(), diesel::result::Error> { 
+pub fn import_pos_items(&self, data: Vec<POSItems>) -> Result<(), diesel::result::Error> { 
     let mut connection_ = self.pool.get().unwrap();
 
     for inner_data in data {   
